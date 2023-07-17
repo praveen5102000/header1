@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(66, 203, 245);
+}
+
+.name{
+    width: 100%;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.name p {
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.social li {
+    display: inline-block;
+    vertical-align: top;
+}
+.social li a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 33px;
+    padding-right: 20px
+}
+.fb > a{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.TCXRgFk1N5mv-R3N2PGbtAHaHa&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: -3px 10px;
+    background-size: 20px;
+}
+.twt > a{
+    background-image: url("https://flyclipart.com/thumb2/twitter-flat-icon-558365.png");
+    background-repeat: no-repeat;
+    background-position: -5px 14px;
+    background-size: 20px;
+}
+.gog > a{
+    background-image: url("https://cdn.imgbin.com/25/9/20/imgbin-google-logo-computer-icons-google-f3LyqhE32DVpsGHwg7EdhZgSN.jpg");
+    background-repeat: no-repeat;
+    background-position: -5px 13px;
+    background-size: 20px;
+}
+.menu-logo {
+    margin-left: 30px;
+}
+.navlinks li {
+display: inline-block;
+}
+.navlinks li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #070707;
+    padding: 20px 20px 20px 10px;
+    display: block;
+    color: white;
+
+}
+.navlinks{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.menu{
+    background-color: rgba(11, 75, 170, 0.959);
+}
+.navlinks li a:hover{
+    background-color:red;
+    color: white;
+}
+.mobmenu a {
+    display: none;
+}
+
+/* Responsive */
+@media (max-width:1024px){
+    .logo a {
+        width: 120px;
+        display: block;
+    }
+    .mobmenu a {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        margin: 11px 20px 11px 0;
+    }
+    .navlinks{
+        display: none;
+    }
+    .mobmenu {
+        text-align: right;
+    }
+}
